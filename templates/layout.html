@@ -9,6 +9,7 @@
   <body>
     <nav>
       <a href="{% url 'views.hello_world' %}"> Home </a>
+      <a style="margin-left: 20px;" href="{% url 'courses:list' %}"> Course </a>
     </nav>
     {% block content %} {% endblock %}
   </body>
